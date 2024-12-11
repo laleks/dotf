@@ -1,0 +1,32 @@
+
+
+[font]
+size = 24
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[window]
+opacity = 0.8
+
+
+[colors.primary]
+background = '#000000'
+
+[general]
+import = [
+    "~/.config/alacritty/rose-pine.toml"
+]

@@ -1,0 +1,138 @@
+{
+    "position": "top",
+    "margin-top": 7,
+    "margin-bottom": 0,
+
+    "layer": "top",
+    "height": 44,
+    "margin-left": 0,
+    "margin-right": 0,    
+    "spacing": 4,
+
+    // Choose the order of the modules
+    "modules-left": ["wlr/taskbar", "hyprland/window"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["tray", "pulseaudio", "network", "cpu", "temperature", "hyprland/language", "clock"],
+
+// Modules configuration
+
+  //"hyprland/workspaces" : {
+  //      "on-click": "activate",
+  //      "active-only": false,
+  //      "all-outputs": true,
+  //      "format": "{name}"
+  //  },
+
+
+
+    "hyprland/workspaces": {
+        "format": "{name}{windows}",
+        //"format-window-separator": "n",
+        "window-rewrite-default": "",
+        "window-rewrite": {
+            //"title<.*youtube.*>": " ",
+            "class<firefox>": "",
+            "class<thorium-browser>": "",
+            "class<steam>": "",
+            "class<qbittorrent>": "󰴻",
+            "class<>": "",
+            "obsidian": "",
+            "dbeaver": "",
+            //"class<firefox> title<.*github.*>": "",
+            "alacritty": " ",
+            "title<.*nvim.*>": "",
+            "title<.*Yazi.*>": " ",
+            //"title<.* - (.*) - VSCodium>": "codium $1"
+        }
+    },
+
+
+
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 18,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close"
+    },
+   
+    "hyprland/window": {
+        "format": "{}",
+        "rewrite": {
+            "(.*) - Thorium": "$1",
+            "(.*) - Sublime Text(.*)": "$1 - Sublime",
+            "Alacritty": " "
+        },
+        "separate-outputs": true
+    },
+
+
+    "hyprland/language": {
+        "format": "{}",
+        "format-en": "EN",
+        "format-ru": "RU"
+    },
+
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10
+    },
+
+    "clock": {
+        // "timezone": "America/New_York",
+        //"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": " {:%H:%M   %d/%m}"
+        //"format": "{:%T<small> %Z</small>}"
+    },
+
+    "cpu": {
+        "format": " {usage}% ",
+        "on-click": "foot -e htop"
+    },
+
+
+    "temperature": {
+        // "thermal-zone": 2,
+        "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+        "critical-threshold": 80,
+        "format-critical": "{temperatureC}°C {icon}",
+        "format": "{temperatureC}°C ",
+        "on-click": "foot -e htop"
+    },
+
+
+
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format": "{ifname}: {ipaddr}/{cidr}"
+    },
+
+
+
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    }
+}
+
+

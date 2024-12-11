@@ -1,0 +1,10 @@
+[Unit]
+Description=Power off by ping from home computer
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/bash '/mnt/raid/distrib/linux/scripts/poweroffbyping.bash'
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
