@@ -1,0 +1,6 @@
+require('settings.keymaps')
+require('settings.options')
+require('settings.fugitive')
+require('settings.harpoon')
+require('settings.undotree')
+require('settings.lsp')

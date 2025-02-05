@@ -32,7 +32,7 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 -- vim.opt.colorcolumn = "80"
---vim.opt.clipboard = unnamedplus
+-- vim.opt.clipboard = unnamedplus
 
 vim.opt.foldmethod = "indent"
 vim.opt.foldenable = false
@@ -42,7 +42,6 @@ vim.opt.cursorline = true        -- Подсветка строки с курс�
 vim.opt.splitright = true        -- vertical split вправо
 vim.opt.splitbelow = true        -- horizontal split вниз
 vim.g.netrw_sort_sequence = "\\/"
-vim.g.mapleader = " "
 
 
 -- Подсвечивает на доли секунды скопированную часть текста
@@ -52,3 +51,7 @@ autocmd!
 autocmd TextYankPost * silent! lua vim.highlight.on_yank{higroup="IncSearch", timeout=300}
 augroup end]], {output = false})
 
+
+
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
