@@ -96,6 +96,7 @@
       vscodium
       python311Full
       poetry
+      nodejs # need for neovim install plugins
   ];
 
 
