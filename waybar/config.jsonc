@@ -12,7 +12,7 @@
     // Choose the order of the modules
     "modules-left": ["wlr/taskbar", "hyprland/window"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["tray", "pulseaudio", "network", "cpu", "temperature", "hyprland/language", "clock"],
+    "modules-right": ["tray", "pulseaudio", "cpu", "temperature", "hyprland/language", "clock"],
 
 // Modules configuration
 
