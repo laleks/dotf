@@ -12,7 +12,7 @@
     // Choose the order of the modules
     "modules-left": ["wlr/taskbar", "hyprland/window"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["tray", "pulseaudio", "cpu", "temperature", "hyprland/language", "clock"],
+    "modules-right": ["tray", "pulseaudio", "cpu", "temperature", "clock"],
 
 // Modules configuration
 
@@ -28,20 +28,24 @@
     "hyprland/workspaces": {
         "format": "{name}{windows}",
         //"format-window-separator": "n",
-        "window-rewrite-default": "",
+        "window-rewrite-default": " ",
         "window-rewrite": {
-            //"title<.*youtube.*>": " ",
-            "class<firefox>": "",
+            "title<.*youtube.*>": " ",
+            "class<firefox>": " ",
+            // "class<firefox>": "",
             "class<thorium-browser>": "",
-            "class<steam>": "",
-            "class<qbittorrent>": "󰴻",
-            "class<>": "",
+            "class<steam>": " ",
+            "class<qbittorrent>": "󰴻 ",
+            // "class<>": " ",
             "obsidian": "",
             "dbeaver": "",
             //"class<firefox> title<.*github.*>": "",
-            "alacritty": " ",
+            // "alacritty": " ",
+            "kitty": " ",
             "title<.*nvim.*>": "",
-            "title<.*Yazi.*>": " ",
+            "title<.* - Sublime.*>": "⸎",
+            // "class<subl>": "🗏",
+            // "title<.*Yazi.*>": " ",
             //"title<.* - (.*) - VSCodium>": "codium $1"
         }
     },
@@ -60,8 +64,9 @@
         "format": "{}",
         "rewrite": {
             "(.*) - Thorium": "$1",
+            "(.*) — Mozilla Firefox": "$1",
             "(.*) - Sublime Text(.*)": "$1 - Sublime",
-            "Alacritty": " "
+            // "(.*) - Alacritty": " "
         },
         "separate-outputs": true
     },
@@ -70,69 +75,167 @@
     "hyprland/language": {
         "format": "{}",
         "format-en": "EN",
-        "format-ru": "RU"
+        "format-ru": "RU",
     },
+
 
     "tray": {
         "icon-size": 21,
         "spacing": 10
     },
 
+
     "clock": {
         // "timezone": "America/New_York",
         //"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": " {:%H:%M   %d/%m}"
+        "format": " {:%H:%M  %F, %a} ",
+        "format-alt": " {:%A, %B %d, %Y (%R)}",
+        // "format": " {:%H:%M   %d/%m}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode"          : "year",
+            "mode-mon-col"  : 3,
+            "weeks-pos"     : "right",
+            "on-scroll"     : 1,
+            "format": {
+                "months":     "<span color='#ffead3'><b>{}</b></span>",
+                "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+            }
+        },
+        "actions":  {
+            "on-click-right": "mode",
+            "on-scroll-up": "tz_up",
+            "on-scroll-down": "tz_down",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        }
         //"format": "{:%T<small> %Z</small>}"
     },
 
+    // "cpu": {
+    //     "format": " {usage}% ",
+    //     "on-click": "foot -e htop"
+
+    // },
+
+
     "cpu": {
-        "format": " {usage}% ",
-        "on-click": "foot -e htop"
+        "interval": 10,
+        "format": " {usage}% {icon}",
+        "max-length": 10,
+        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
     },
 
+    // "temperature": {
+    //     // "thermal-zone": 2,
+    //     "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+    //     "critical-threshold": 80,
+    //     "format-critical": "{temperatureC}°C {icon}",
+    //     "format": "{temperatureC}°C ",
+    //     "on-click": "foot -e htop"
+    // },
 
     "temperature": {
-        // "thermal-zone": 2,
-        "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
         "critical-threshold": 80,
-        "format-critical": "{temperatureC}°C {icon}",
-        "format": "{temperatureC}°C ",
-        "on-click": "foot -e htop"
+        "interval": 5,
+        "thermal-zone": 1,
+        "format": "{icon} {temperatureC}°C",
+        "format-icons": [
+            "", // Icon: temperature-empty
+            "", // Icon: temperature-quarter
+            "", // Icon: temperature-half
+            "", // Icon: temperature-three-quarters
+            ""  // Icon: temperature-full
+        ],
+        "tooltip": true
     },
 
+
+    // "network": {
+    //     // "interface": "wlp2*", // (Optional) To force the use of this interface
+    //     "format-wifi": "{essid} ({signalStrength}%) ",
+    //     "format-ethernet": "{ipaddr}/{cidr} ",
+    //     "tooltip-format": "{ifname} via {gwaddr} ",
+    //     "format-linked": "{ifname} (No IP) ",
+    //     "format-disconnected": "Disconnected ⚠",
+    //     "format": "{ifname}: {ipaddr}/{cidr}"
+    // },
 
 
     "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "format": "{ifname}: {ipaddr}/{cidr}"
+        "format": "{ifname}",
+        "format-wifi": " {essid}",
+        "format-ethernet": " {ifname}",
+        "format-disconnected": "", //An empty format will hide the module.
+        "tooltip-format": "{ipaddr}/{cidr} via {gwaddr}",
+        "tooltip-format-wifi": " {essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "󰩠 {ipaddr}/{cidr} via {gwaddr}",
+        "tooltip-format-disconnected": "󰲛 Disconnected",
+        "max-length": 50,
+        "on-click": "nm-connection-editor"
     },
 
 
-
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
+        "format": "{icon} {volume}% {format_source}",
+        "format-bluetooth": "{icon}  {volume}% {format_source}",
+        "format-bluetooth-muted": "󰝟  {format_source}",
+        "format-muted": "󰝟 {format_source}",
+        "format-source": " {volume}%",
+        "format-source-muted": " ",
         "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
+          "headphone": " ",
+          "hands-free": " ",
+          "headset": "󰋎 ",
+          "phone": " ",
+          "portable": " ",
+          "car": " ",
+          "default": [
+                "",
+                " ",
+                " "
+          ]
         },
-        "on-click": "pavucontrol"
-    }
+        "scroll-step": 5,
+        "on-click": "pavucontrol",
+        "on-click-right": "blueman-manager"
+    },
+
+
+    // "wireplumber": {
+    //     "format": "{icon}{volume}%",
+    //     "format-muted": " ",
+    //     // "on-click": "helvum",
+    //     "on-click": "pavucontrol",
+    //     "on-click-middle": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    //     "format-icons": ["", " ", " "],
+    //     "max-volume": 200,
+    //     // "scroll-step": 0.2,
+    // },
+
+
+    // "pulseaudio": {
+    //     // "scroll-step": 1, // %, can be a float
+    //     "format": "{volume}% {icon} {format_source}",
+    //     "format-bluetooth": "{volume}% {icon} {format_source}",
+    //     "format-bluetooth-muted": " {icon} {format_source}",
+    //     "format-muted": " {format_source}",
+    //     "format-source": "{volume}% ",
+    //     "format-source-muted": "",
+    //     "format-icons": {
+    //         "headphone": "",
+    //         "hands-free": "",
+    //         "headset": "",
+    //         "phone": "",
+    //         "portable": "",
+    //         "car": "",
+    //         "default": ["", "", ""]
+    //     },
+    //     "on-click": "pavucontrol"
+    // }
 }
 
 
