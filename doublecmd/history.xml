@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <History>
+    <Navigation>
+      <Item>/mnt/data/res/</Item>
+      <Item>/mnt/data/</Item>
+      <Item>/mnt/</Item>
+      <Item>/</Item>
+      <Item>/home/</Item>
+      <Item>/home/lt/</Item>
+      <Item>/home/lt/.config/</Item>
+      <Item>/home/lt/.config/libreoffice/</Item>
+      <Item>/home/lt/.config/libreoffice/4/</Item>
+      <Item>/home/lt/.config/libreoffice/4/cache/</Item>
+      <Item>/home/lt/.config/libreoffice/4/user/</Item>
+      <Item>/home/lt/.config/mozilla/</Item>
+      <Item>/home/lt/.config/mozilla/firefox/</Item>
+      <Item>/home/lt/.config/mozilla/firefox/Crash Reports/</Item>
+      <Item>/home/lt/.config/skbkontur/</Item>
+      <Item>/home/lt/.config/skbkontur/plugin/</Item>
+      <Item>/mnt/data/dotf-local/qBittorrent/</Item>
+      <Item>/mnt/data/dotf-local/</Item>
+      <Item>/mnt/data/dotf/</Item>
+      <Item>/mnt/data/dotf/fish/</Item>
+      <Item>/mnt/data/dotf-local/DBeaverData/</Item>
+      <Item>/home/lt/.config/qBittorrent/</Item>
+      <Item>/mnt/data/res/businnes/</Item>
+      <Item>/home/lt/.config/qBittorrent/rss/</Item>
+      <Item>/mnt/data/res/businnes/mh/</Item>
+      <Item>/mnt/data/res/businnes/mh/договор_рибейро/</Item>
+      <Item>/mnt/data/res/brewery/</Item>
+      <Item>/mnt/data/res/brewery/detail/</Item>
+      <Item>/mnt/data/res/brewery/firmware/</Item>
+      <Item>/mnt/data/media/</Item>
+      <Item>/mnt/data/inbox/</Item>
+      <Item>/mnt/data/media/serials/</Item>
+      <Item>/mnt/data/lost+found/</Item>
+      <Item>/mnt/data/res/businnes/mh/IM70_last/</Item>
+      <Item>/mnt/data/distrib/</Item>
+      <Item>/mnt/data/distrib/reader/</Item>
+      <Item>/mnt/data/res/apart-3939/</Item>
+      <Item>/mnt/data/res/apart-3939/foto/</Item>
+      <Item>/mnt/data/res/apart-3939/акустика/</Item>
+      <Item>/mnt/data/distrib/utils/</Item>
+      <Item>/mnt/data/distrib/editor/</Item>
+      <Item>/mnt/data/distrib/portsoft/</Item>
+      <Item>/mnt/data/obsidian/</Item>
+      <Item>/mnt/data/res/wallpaper/</Item>
+      <Item>/mnt/data/res/vpn/</Item>
+      <Item>/mnt/data/res/viks/</Item>
+      <Item>/mnt/data/res/things/</Item>
+      <Item>/mnt/data/res/sup/</Item>
+      <Item>/mnt/data/res/rviks/</Item>
+      <Item>/mnt/data/res/ringtone/</Item>
+      <Item>/mnt/data/res/rhome/</Item>
+    </Navigation>
+    <CommandLine/>
+    <FileMask/>
+    <VolumeSize/>
+    <CreateDirectories>
+      <Item Tag="0">dogovor_braz</Item>
+      <Item Tag="0">torr</Item>
+      <Item Tag="0">temp</Item>
+      <Item Tag="0">dotf-local</Item>
+      <Item Tag="0">elena</Item>
+      <Item Tag="0">test</Item>
+      <Item Tag="0">collection</Item>
+      <Item Tag="0">media</Item>
+      <Item Tag="0">lt</Item>
+      <Item Tag="0">arhive</Item>
+      <Item Tag="0">.config</Item>
+    </CreateDirectories>
+    <SearchText/>
+    <SearchTextPath/>
+    <ReplaceText/>
+    <ReplaceTextPath/>
+    <RenameNameMask/>
+    <RenameExtMask/>
+    <SearchDirectories/>
+    <SearchExcludeFiles/>
+    <SearchExcludeDirectories/>
+  </History>
+</doublecmd>

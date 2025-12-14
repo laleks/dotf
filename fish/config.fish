@@ -19,3 +19,4 @@ zoxide init --cmd cd fish | source
 #alias cppr="rsync --progress -auv"
 alias ls='ls -lhaXA --color=auto --group-directories-first'
 alias grep='grep --color=auto'
+alias lsblk='lsblk -o NAME,SIZE,FSTYPE,MOUNTPOINTS,MODEL,UUID'
