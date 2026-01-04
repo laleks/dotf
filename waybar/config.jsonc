@@ -92,6 +92,7 @@
         "format-alt": " {:%A, %B %d, %Y (%R)}",
         // "format": " {:%H:%M   %d/%m}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "locale"        : "ru_RU.UTF-8",
         "calendar": {
             "mode"          : "year",
             "mode-mon-col"  : 3,
@@ -115,18 +116,12 @@
         //"format": "{:%T<small> %Z</small>}"
     },
 
-    // "cpu": {
-    //     "format": " {usage}% ",
-    //     "on-click": "foot -e htop"
-
-    // },
-
-
     "cpu": {
         "interval": 10,
-        "format": " {usage}% {icon}",
+        // "format": " {usage}% {icon}",
+        "format": " {usage}%",
         "max-length": 10,
-        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+        // "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
     },
 
     // "temperature": {

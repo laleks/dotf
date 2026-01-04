@@ -566,7 +566,7 @@
   <DirectoryHotList>
     <HotDir Name="home" Path="/home/lt"/>
     <HotDir Name="inbox" Path="/mnt/data/inbox"/>
-    <HotDir Name="res" Path="/mnt/data/res/"/>
+    <HotDir Name="res" Path="/mnt/data/res"/>
   </DirectoryHotList>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
@@ -730,7 +730,7 @@
           <Title>Name</Title>
           <Unique>06507DFB-AC04-43D7-AA97-4E2F04024C7D</Unique>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>662</Width>
+          <Width>595</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -762,7 +762,7 @@
           <Title>Size</Title>
           <Unique>39281011-A30C-47CF-AD18-56BCC32F1CC7</Unique>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>129</Width>
+          <Width>165</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -778,7 +778,7 @@
           <Title>Date</Title>
           <Unique>C1F1D805-4074-4F47-AC0D-625315A0A8CF</Unique>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>140</Width>
+          <Width>222</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -794,7 +794,7 @@
           <Title>Attr</Title>
           <Unique>5A1F63D1-054E-475D-8705-5E9B1F2B0F49</Unique>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>100</Width>
+          <Width>144</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>

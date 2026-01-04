@@ -2,62 +2,74 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/mnt/data/res/</Item>
+      <Item>/mnt/data/media/serials/Во все тяжкие/Season 5/</Item>
+      <Item>/mnt/data/media/serials/Во все тяжкие/</Item>
+      <Item>/mnt/data/media/serials/</Item>
+      <Item>/mnt/data/media/</Item>
+      <Item>/mnt/data/media/serials/Stranger Things/</Item>
+      <Item>/mnt/data/media/serials/Stranger Things/Season 5/</Item>
       <Item>/mnt/data/</Item>
       <Item>/mnt/</Item>
       <Item>/</Item>
-      <Item>/home/</Item>
-      <Item>/home/lt/</Item>
-      <Item>/home/lt/.config/</Item>
-      <Item>/home/lt/.config/libreoffice/</Item>
-      <Item>/home/lt/.config/libreoffice/4/</Item>
-      <Item>/home/lt/.config/libreoffice/4/cache/</Item>
-      <Item>/home/lt/.config/libreoffice/4/user/</Item>
-      <Item>/home/lt/.config/mozilla/</Item>
-      <Item>/home/lt/.config/mozilla/firefox/</Item>
-      <Item>/home/lt/.config/mozilla/firefox/Crash Reports/</Item>
-      <Item>/home/lt/.config/skbkontur/</Item>
-      <Item>/home/lt/.config/skbkontur/plugin/</Item>
-      <Item>/mnt/data/dotf-local/qBittorrent/</Item>
-      <Item>/mnt/data/dotf-local/</Item>
-      <Item>/mnt/data/dotf/</Item>
-      <Item>/mnt/data/dotf/fish/</Item>
-      <Item>/mnt/data/dotf-local/DBeaverData/</Item>
-      <Item>/home/lt/.config/qBittorrent/</Item>
-      <Item>/mnt/data/res/businnes/</Item>
-      <Item>/home/lt/.config/qBittorrent/rss/</Item>
-      <Item>/mnt/data/res/businnes/mh/</Item>
-      <Item>/mnt/data/res/businnes/mh/договор_рибейро/</Item>
-      <Item>/mnt/data/res/brewery/</Item>
-      <Item>/mnt/data/res/brewery/detail/</Item>
-      <Item>/mnt/data/res/brewery/firmware/</Item>
-      <Item>/mnt/data/media/</Item>
       <Item>/mnt/data/inbox/</Item>
-      <Item>/mnt/data/media/serials/</Item>
-      <Item>/mnt/data/lost+found/</Item>
-      <Item>/mnt/data/res/businnes/mh/IM70_last/</Item>
+      <Item>/mnt/data/inbox/drv_noutula/</Item>
+      <Item>/mnt/data/inbox/drv_noutula/WLAN/</Item>
+      <Item>/mnt/data/inbox/drv_noutula/WLAN/UWD/</Item>
+      <Item>/mnt/data/inbox/drv_noutula/WLAN/UWD/Win64/</Item>
+      <Item>/boot/</Item>
+      <Item>/boot/efi/</Item>
+      <Item>/boot/efi/loader/</Item>
+      <Item>/boot/efi/EFI/</Item>
+      <Item>/mnt/data/media/origami/</Item>
+      <Item>/mnt/data/media/piano/</Item>
+      <Item>/mnt/data/media/ringtone/</Item>
+      <Item>/mnt/data/media/unsort/</Item>
+      <Item>/mnt/data/media/soft/</Item>
+      <Item>/mnt/data/media/arh/</Item>
+      <Item>/mnt/data/media/arh/ula/</Item>
+      <Item>/mnt/data/res/</Item>
       <Item>/mnt/data/distrib/</Item>
-      <Item>/mnt/data/distrib/reader/</Item>
-      <Item>/mnt/data/res/apart-3939/</Item>
-      <Item>/mnt/data/res/apart-3939/foto/</Item>
-      <Item>/mnt/data/res/apart-3939/акустика/</Item>
-      <Item>/mnt/data/distrib/utils/</Item>
+      <Item>/mnt/data/distrib/drivers/</Item>
+      <Item>/mnt/data/distrib/system/</Item>
       <Item>/mnt/data/distrib/editor/</Item>
-      <Item>/mnt/data/distrib/portsoft/</Item>
-      <Item>/mnt/data/obsidian/</Item>
-      <Item>/mnt/data/res/wallpaper/</Item>
-      <Item>/mnt/data/res/vpn/</Item>
-      <Item>/mnt/data/res/viks/</Item>
-      <Item>/mnt/data/res/things/</Item>
-      <Item>/mnt/data/res/sup/</Item>
-      <Item>/mnt/data/res/rviks/</Item>
-      <Item>/mnt/data/res/ringtone/</Item>
-      <Item>/mnt/data/res/rhome/</Item>
+      <Item>/mnt/ext/</Item>
+      <Item>/mnt/data/media/serials/Stranger Things/Season 4/</Item>
+      <Item>/mnt/data/media/mult/</Item>
+      <Item>/mnt/data/res/00_businnes/mh/</Item>
+      <Item>/mnt/data/res/00_businnes/mh/IM70_ЛитуевАА/</Item>
+      <Item>/mnt/data/res/00_businnes/mh/IM70_last/</Item>
+      <Item>/mnt/data/res/00_businnes/</Item>
+      <Item>/mnt/data/res/00_businnes/декларирование/</Item>
+      <Item>/mnt/data/distrib/aur/libjpeg6-turbo/</Item>
+      <Item>/mnt/data/distrib/aur/</Item>
+      <Item>/mnt/data/distrib/aur/ufrii-print/</Item>
+      <Item>/mnt/data/homem/</Item>
+      <Item>/mnt/data/homem/video/</Item>
+      <Item>/mnt/data/homem/video/Усы/</Item>
+      <Item>/mnt/data/inbox/telegram/</Item>
+      <Item>/mnt/data/inbox/elena/</Item>
+      <Item>/mnt/data/lost+found/</Item>
+      <Item>/mnt/data/res/famnutrition/</Item>
+      <Item>/mnt/data/res/00_famnutrition/</Item>
+      <Item>/mnt/data/res/english/</Item>
+      <Item>/mnt/data/res/english/аудиоматериалы/</Item>
     </Navigation>
     <CommandLine/>
-    <FileMask/>
+    <FileMask>
+      <Item>break</Item>
+    </FileMask>
     <VolumeSize/>
     <CreateDirectories>
+      <Item Tag="0">drv_noutula</Item>
+      <Item Tag="0">arh</Item>
+      <Item Tag="0">soft</Item>
+      <Item Tag="0">english</Item>
+      <Item Tag="0">buy</Item>
+      <Item Tag="0">doclt</Item>
+      <Item Tag="0">Во все тяжкие</Item>
+      <Item Tag="0">Договор_Бразилия</Item>
+      <Item Tag="0">Договор_ЛитуевАА</Item>
+      <Item Tag="0">ДопСоглашение_ЛитуевАА</Item>
       <Item Tag="0">dogovor_braz</Item>
       <Item Tag="0">torr</Item>
       <Item Tag="0">temp</Item>
@@ -68,7 +80,6 @@
       <Item Tag="0">media</Item>
       <Item Tag="0">lt</Item>
       <Item Tag="0">arhive</Item>
-      <Item Tag="0">.config</Item>
     </CreateDirectories>
     <SearchText/>
     <SearchTextPath/>
@@ -76,7 +87,9 @@
     <ReplaceTextPath/>
     <RenameNameMask/>
     <RenameExtMask/>
-    <SearchDirectories/>
+    <SearchDirectories>
+      <Item>/mnt/data/distrib/torrents/</Item>
+    </SearchDirectories>
     <SearchExcludeFiles/>
     <SearchExcludeDirectories/>
   </History>
