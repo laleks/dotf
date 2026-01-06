@@ -5,7 +5,7 @@ if status is-interactive
 end
 
 if status is-login
-   exec Hyprland
+   exec start-hyprland
 end
 
 function open

@@ -1,7 +1,0 @@
-[user]
-	email = 54145@mail.ru
-	name = laleks
-[core]
-	editor = nvim
-	pager = less -FRX
-
