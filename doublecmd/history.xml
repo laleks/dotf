@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <History>
+    <Navigation>
+      <Item>/etc/</Item>
+      <Item>/</Item>
+      <Item>/home/</Item>
+      <Item>/home/lt/</Item>
+      <Item>/home/lt/.local/</Item>
+      <Item>/mnt/data/dotf/</Item>
+      <Item>/mnt/data/dotf/sshd/</Item>
+      <Item>/mnt/data/dotf/.ssh/</Item>
+      <Item>/mnt/data/dotf/git/</Item>
+      <Item>/mnt/data/dotf/.git/</Item>
+      <Item>/mnt/data/dotf/.local/</Item>
+      <Item>/mnt/data/dotf/.local/fonts/</Item>
+      <Item>/mnt/data/dotf/.local/fish/</Item>
+      <Item>/mnt/data/dotf/.local/DBeaverData/</Item>
+      <Item>/home/lt/.local/share/</Item>
+      <Item>/home/lt/.config/</Item>
+      <Item>/home/lt/.config/autostart/</Item>
+      <Item>/home/lt/.config/cachyos/</Item>
+      <Item>/home/lt/.config/cachyos/cachyos-pi/</Item>
+      <Item>/home/lt/.config/cachyos/cachyos-hello/</Item>
+      <Item>/home/lt/.config/keepassxc/</Item>
+      <Item>/home/lt/.config/nautilus/</Item>
+      <Item>/mnt/data/dotf/xnviewmp/</Item>
+      <Item>/mnt/data/dotf/sublime-text/</Item>
+      <Item>/mnt/data/dotf/SpeedCrunch/</Item>
+      <Item>/mnt/data/dotf/qBittorrent/</Item>
+      <Item>/mnt/data/dotf/obsidian/</Item>
+      <Item>/mnt/data/dotf/noctalia/</Item>
+      <Item>/mnt/data/dotf/niri/</Item>
+      <Item>/mnt/data/dotf/mc/</Item>
+      <Item>/mnt/data/dotf/Happ/</Item>
+      <Item>/mnt/data/dotf/fish/</Item>
+      <Item>/mnt/data/dotf/doublecmd/</Item>
+      <Item>/mnt/data/dotf/alacritty/</Item>
+      <Item>/mnt/</Item>
+      <Item>/mnt/data/</Item>
+      <Item>/mnt/data/dotfl/</Item>
+      <Item>/mnt/data/dotfl/.local/</Item>
+      <Item>/mnt/data/dotfg/</Item>
+      <Item>/mnt/data/dotfg/vsftpd/</Item>
+      <Item>/mnt/data/dotfg/sublime-text/</Item>
+      <Item>/mnt/data/dotfl/git/</Item>
+      <Item>/mnt/data/dotfl/Happ/</Item>
+      <Item>/mnt/data/dotfl/script/</Item>
+      <Item>/mnt/data/dotfl/qBittorrent/</Item>
+      <Item>/mnt/data/dotfl/obsidian/</Item>
+      <Item>/mnt/data/dotfl/.local/fonts/</Item>
+      <Item>/mnt/data/dotfl/.local/fish/</Item>
+      <Item>/mnt/data/dotfl/.local/DBeaverData/</Item>
+      <Item>/mnt/data/dotfl/.ssh/</Item>
+      <Item>/home/lt/.config/obsidian/</Item>
+    </Navigation>
+    <CommandLine/>
+    <FileMask/>
+    <VolumeSize/>
+    <CreateDirectories>
+      <Item Tag="0">share</Item>
+    </CreateDirectories>
+    <SearchText>
+      <Item Tag="0">window-rule</Item>
+      <Item Tag="0">+C</Item>
+      <Item Tag="0">Mod+C</Item>
+      <Item Tag="0">+A</Item>
+      <Item Tag="0">+O</Item>
+      <Item Tag="0">envir</Item>
+    </SearchText>
+    <SearchTextPath/>
+    <ReplaceText/>
+    <ReplaceTextPath/>
+    <RenameNameMask/>
+    <RenameExtMask/>
+    <SearchDirectories/>
+    <SearchExcludeFiles/>
+    <SearchExcludeDirectories/>
+  </History>
+</doublecmd>
