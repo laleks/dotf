@@ -11,7 +11,7 @@
 	"last_version": 4200,
 	"last_window_id": 2,
 	"log_indexing": false,
-	"next_update_check": 1775108715,
+	"next_update_check": 1775195115,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -61,12 +61,13 @@
 			},
 			"file_history":
 			[
+				"/home/lt/.config/niri/cfg/keybinds.kdl",
 				"/mnt/data/dotf/niri/cfg/keybinds.kdl",
 				"/etc/skel/.config/fish/config.fish"
 			],
 			"find":
 			{
-				"height": 28.0
+				"height": 40.0
 			},
 			"find_in_files":
 			{
@@ -80,6 +81,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"maximize-column",
 					"CTRL"
 				],
 				"highlight": true,
@@ -156,7 +158,7 @@
 			{
 			}
 		},
-		"new_window_width": 936.0
+		"new_window_width": 1507.0
 	},
 	"windows":
 	[
@@ -169,6 +171,159 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/lt/.config/niri/cfg/keybinds.kdl",
+					"redo_stack":
+					[
+						[
+							54,
+							1,
+							"left_delete",
+							null,
+							"AgAAAIIbAAAAAAAAgxsAAAAAAAAAAAAAgxsAAAAAAACHGwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAghsAAAAAAACCGwAAAAAAAAAAAAAAAPC/"
+						]
+					],
+					"settings":
+					{
+						"buffer_size": 8392,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							9,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAAgbAAAAAAAADRsAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACBsAAAAAAAAIGwAAAAAAAP///////+9/"
+						],
+						[
+							11,
+							1,
+							"",
+							null,
+							"AQAAAA0bAAAAAAAAHBsAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADRsAAAAAAAANGwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"duplicate_line",
+							null,
+							"AQAAAAkbAAAAAAAAVxsAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvxoAAAAAAAC/GgAAAAAAAAAAAAAAAEBA"
+						],
+						[
+							19,
+							1,
+							"cut",
+							null,
+							"AQAAAFsbAAAAAAAAWxsAAAAAAAAPAAAAbWF4aW1pemUtY29sdW1u",
+							"AQAAAAAAAAABAAAAWxsAAAAAAABqGwAAAAAAAP///////+9/"
+						],
+						[
+							20,
+							2,
+							"left_delete",
+							null,
+							"AgAAAFcbAAAAAAAAVxsAAAAAAAAEAAAAICAgIFYbAAAAAAAAVhsAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAWxsAAAAAAABbGwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							23,
+							1,
+							"paste",
+							null,
+							"AQAAADMbAAAAAAAAQhsAAAAAAAAgAAAAZXhwYW5kLWNvbHVtbi10by1hdmFpbGFibGUtd2lkdGg",
+							"AQAAAAAAAAABAAAAUxsAAAAAAAAzGwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"paste",
+							null,
+							"AQAAAMMaAAAAAAAAyRoAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAwxoAAAAAAADDGgAAAAAAAAAAAAAAAFBA"
+						],
+						[
+							34,
+							1,
+							"right_delete",
+							null,
+							"AQAAAMoaAAAAAAAAyhoAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAyhoAAAAAAADKGgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							5,
+							"right_delete",
+							null,
+							"BQAAAMoaAAAAAAAAyhoAAAAAAAABAAAAIMoaAAAAAAAAyhoAAAAAAAABAAAAIMoaAAAAAAAAyhoAAAAAAAABAAAAIMoaAAAAAAAAyhoAAAAAAAABAAAAIMoaAAAAAAAAyhoAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAyhoAAAAAAADKGgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							41,
+							6,
+							"left_delete",
+							null,
+							"BgAAAMcaAAAAAAAAxxoAAAAAAAABAAAAdMYaAAAAAAAAxhoAAAAAAAABAAAAZsUaAAAAAAAAxRoAAAAAAAABAAAAacQaAAAAAAAAxBoAAAAAAAABAAAAaMMaAAAAAAAAwxoAAAAAAAABAAAAU8IaAAAAAAAAwhoAAAAAAAABAAAAKw",
+							"AQAAAAAAAAABAAAAyBoAAAAAAADIGgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							1,
+							"insert",
+							{
+								"characters": "      "
+							},
+							"BgAAAMQaAAAAAAAAxRoAAAAAAAAAAAAAxRoAAAAAAADGGgAAAAAAAAAAAADGGgAAAAAAAMcaAAAAAAAAAAAAAMcaAAAAAAAAyBoAAAAAAAAAAAAAyBoAAAAAAADJGgAAAAAAAAAAAADJGgAAAAAAAMoaAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAxBoAAAAAAADEGgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							45,
+							1,
+							"insert",
+							{
+								"characters": "//"
+							},
+							"AgAAAL8aAAAAAAAAwBoAAAAAAAAAAAAAwBoAAAAAAADBGgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvxoAAAAAAAC/GgAAAAAAAAAAAAAAAEBA"
+						],
+						[
+							49,
+							1,
+							"insert",
+							{
+								"characters": "//"
+							},
+							"AgAAAIcbAAAAAAAAiBsAAAAAAAAAAAAAiBsAAAAAAACJGwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhxsAAAAAAACHGwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							51,
+							2,
+							"right_delete",
+							null,
+							"AgAAAIMbAAAAAAAAgxsAAAAAAAABAAAAL4MbAAAAAAAAgxsAAAAAAAABAAAALw",
+							"AQAAAAAAAAABAAAAgxsAAAAAAACDGwAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							53,
+							1,
+							"insert",
+							{
+								"characters": "  "
+							},
+							"AgAAAIUbAAAAAAAAhhsAAAAAAAAAAAAAhhsAAAAAAACHGwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhRsAAAAAAACFGwAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -207,7 +362,7 @@
 			],
 			"find":
 			{
-				"height": 28.0
+				"height": 40.0
 			},
 			"find_in_files":
 			{
@@ -221,6 +376,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"maximize-column",
 					"CTRL"
 				],
 				"highlight": true,
@@ -243,6 +399,38 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/lt/.config/niri/cfg/keybinds.kdl",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8392,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6956,
+										6956
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1624.5,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -285,7 +473,7 @@
 				]
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,0,936,1018,1920,1080,0",
+			"position": "0,0,0,0,0,0,0,1507,1018,1920,1080,0",
 			"project": "",
 			"replace":
 			{

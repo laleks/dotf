@@ -110,9 +110,10 @@ binds {
     Mod+TAB                             { focus-workspace-previous; }
 
     // ─── Layout Controls ───
-    Mod+F                               { expand-column-to-available-width; }
+    //Mod+F                               { expand-column-to-available-width; }
+    Mod+F                               { maximize-column; }
     Mod+Shift+C                         { center-column; }
-//  Mod+C                               { center-visible-columns; }
+    //Mod+C                               { center-visible-columns; }
     Mod+Minus                           { set-column-width "-10%"; }
     Mod+Equal                           { set-column-width "+10%"; }
     Mod+Shift+Minus                     { set-window-height "-10%"; }

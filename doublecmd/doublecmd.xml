@@ -158,12 +158,12 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>80</Left>
+      <Left>32</Left>
       <Top>48</Top>
-      <Width>800</Width>
-      <Height>480</Height>
+      <Width>1493</Width>
+      <Height>994</Height>
       <PixelsPerInch>96</PixelsPerInch>
-      <Maximized>True</Maximized>
+      <Maximized>False</Maximized>
       <Splitter>50</Splitter>
     </Position>
   </MainWindow>
@@ -730,7 +730,7 @@
           <Title>Имя</Title>
           <Unique>D3496B9D-D511-46F8-9D77-808F04715040</Unique>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>250</Width>
+          <Width>333</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -746,7 +746,7 @@
           <Title>Тип</Title>
           <Unique>0F95FA1C-7CD5-4873-8A61-22D2F87644A4</Unique>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>50</Width>
+          <Width>108</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
