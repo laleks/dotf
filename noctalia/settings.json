@@ -102,15 +102,6 @@
             ],
             "left": [
                 {
-                    "colorizeSystemIcon": "none",
-                    "customIconPath": "",
-                    "enableColorization": false,
-                    "icon": "rocket",
-                    "iconColor": "none",
-                    "id": "Launcher",
-                    "useDistroLogo": false
-                },
-                {
                     "compactMode": true,
                     "diskPath": "/",
                     "iconColor": "none",
@@ -139,7 +130,6 @@
                     "maxWidth": 145,
                     "scrollingMode": "hover",
                     "showIcon": true,
-                    "showText": true,
                     "textColor": "none",
                     "useFixedWidth": false
                 },
@@ -197,6 +187,13 @@
                     "textColor": "none"
                 },
                 {
+                    "applyToAllMonitors": false,
+                    "displayMode": "onhover",
+                    "iconColor": "none",
+                    "id": "Brightness",
+                    "textColor": "none"
+                },
+                {
                     "clockColor": "none",
                     "customFont": "",
                     "formatHorizontal": "HH:mm ddd, MMM dd",
@@ -235,7 +232,7 @@
                 "id": "calendar-month-card"
             },
             {
-                "enabled": true,
+                "enabled": false,
                 "id": "weather-card"
             }
         ]
@@ -248,8 +245,7 @@
         "monitorForColors": "",
         "predefinedScheme": "Nord",
         "schedulingMode": "off",
-        "syncGsettings": true,
-        "useWallpaperColors": true
+        "useWallpaperColors": false
     },
     "controlCenter": {
         "cards": [
@@ -335,7 +331,7 @@
         "inactiveIndicators": false,
         "indicatorColor": "primary",
         "indicatorOpacity": 0.6,
-        "indicatorThickness": 3,
+        "indicatorThickness": 6,
         "launcherIcon": "",
         "launcherIconColor": "none",
         "launcherPosition": "end",
@@ -347,7 +343,7 @@
         ],
         "pinnedStatic": false,
         "position": "bottom",
-        "showDockIndicator": false,
+        "showDockIndicator": true,
         "showLauncherIcon": false,
         "sitOnFrame": false,
         "size": 1
@@ -394,7 +390,7 @@
                 "Up"
             ]
         },
-        "language": "",
+        "language": "ru",
         "lockOnSuspend": true,
         "lockScreenAnimations": false,
         "lockScreenBlur": 0,
@@ -410,12 +406,11 @@
         "shadowDirection": "bottom_right",
         "shadowOffsetX": 2,
         "shadowOffsetY": 3,
-        "showChangelogOnStartup": true,
+        "showChangelogOnStartup": false,
         "showHibernateOnLockScreen": false,
         "showScreenCorners": false,
         "showSessionButtonsOnLockScreen": true,
-        "smoothScrollEnabled": true,
-        "telemetryEnabled": true
+        "telemetryEnabled": false
     },
     "hooks": {
         "colorGeneration": "",
@@ -445,21 +440,20 @@
     },
     "location": {
         "analogClockInCalendar": false,
-        "autoLocate": true,
         "firstDayOfWeek": -1,
         "hideWeatherCityName": false,
         "hideWeatherTimezone": false,
-        "name": "Troitsk",
-        "showCalendarEvents": true,
+        "name": "Челябинск",
+        "showCalendarEvents": false,
         "showCalendarWeather": true,
-        "showWeekNumberInCalendar": false,
+        "showWeekNumberInCalendar": true,
         "use12hourFormat": false,
         "useFahrenheit": false,
-        "weatherEnabled": true,
-        "weatherShowEffects": true,
-        "weatherTaliaMascotAlways": false
+        "weatherEnabled": false,
+        "weatherShowEffects": true
     },
     "network": {
+        "airplaneModeEnabled": false,
         "bluetoothAutoConnect": true,
         "bluetoothDetailsViewMode": "grid",
         "bluetoothHideUnnamedDevices": false,
@@ -625,8 +619,36 @@
     },
     "templates": {
         "activeTemplates": [
+            {
+                "enabled": true,
+                "id": "alacritty"
+            },
+            {
+                "enabled": true,
+                "id": "qt"
+            },
+            {
+                "enabled": true,
+                "id": "gtk"
+            },
+            {
+                "enabled": true,
+                "id": "kitty"
+            },
+            {
+                "enabled": true,
+                "id": "telegram"
+            },
+            {
+                "enabled": true,
+                "id": "steam"
+            },
+            {
+                "enabled": true,
+                "id": "hyprland"
+            }
         ],
-        "enableUserTheming": false
+        "enableUserTheming": true
     },
     "ui": {
         "boxBorderEnabled": false,
@@ -637,14 +659,14 @@
         "panelBackgroundOpacity": 0.93,
         "panelsAttachedToBar": true,
         "scrollbarAlwaysVisible": true,
-        "settingsPanelMode": "attached",
+        "settingsPanelMode": "centered",
         "settingsPanelSideBarCardStyle": false,
         "tooltipsEnabled": true,
         "translucentWidgets": false
     },
     "wallpaper": {
         "automationEnabled": true,
-        "directory": "/mnt/data/media/wallpaper",
+        "directory": "/home/lt/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
@@ -652,10 +674,9 @@
         "fillColor": "#000000",
         "fillMode": "crop",
         "hideWallpaperFilenames": false,
-        "linkLightAndDarkWallpapers": true,
         "monitorDirectories": [
             {
-                "directory": "/mnt/data/media/wallpaper",
+                "directory": "/home/lt/Pictures/Wallpapers",
                 "name": "HDMI-A-1",
                 "wallpaper": ""
             }
@@ -666,7 +687,7 @@
         "panelPosition": "follow_bar",
         "randomIntervalSec": 300,
         "setWallpaperOnAllMonitors": true,
-        "showHiddenFiles": true,
+        "showHiddenFiles": false,
         "skipStartupTransition": false,
         "solidColor": "#1a1a2e",
         "sortOrder": "name",
@@ -680,10 +701,10 @@
             "pixelate",
             "honeycomb"
         ],
-        "useOriginalImages": true,
+        "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "browse",
+        "viewMode": "single",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",

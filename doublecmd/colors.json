@@ -71,13 +71,13 @@
       },
       ColumnSets : [
         {
-          Unique : "38476726-C2B6-4775-8C7B-1F5B66841B9B",
+          Unique : "D35C4C99-397E-4613-B8E9-DB2C749FBEB8",
           Name : "Default",
           CursorBorderColor : -2147483635,
           Columns : [
             {
-              Unique : "D3496B9D-D511-46F8-9D77-808F04715040",
-              Title : "Имя",
+              Unique : "27BE4EA2-6F01-49BE-A69D-ED227F578F81",
+              Title : "Name",
               TextColor : -2147483640,
               Background : -2147483643,
               Background2 : -2147483643,
@@ -88,8 +88,8 @@
               InactiveMarkColor : 128
             },
             {
-              Unique : "0F95FA1C-7CD5-4873-8A61-22D2F87644A4",
-              Title : "Тип",
+              Unique : "5FD6FCF3-39B7-42C5-A6C9-DC67D237B64B",
+              Title : "Ext",
               TextColor : -2147483640,
               Background : -2147483643,
               Background2 : -2147483643,
@@ -100,8 +100,8 @@
               InactiveMarkColor : 128
             },
             {
-              Unique : "DF6B46D9-0B9E-4AE8-9543-3D99A01A8CBA",
-              Title : "Размер",
+              Unique : "548039C6-48D5-456C-8AD3-6646EA368080",
+              Title : "Size",
               TextColor : -2147483640,
               Background : -2147483643,
               Background2 : -2147483643,
@@ -112,8 +112,8 @@
               InactiveMarkColor : 128
             },
             {
-              Unique : "7A7C1486-CCC7-45A2-A387-E4BF1C45CD8D",
-              Title : "Дата",
+              Unique : "70B9D2CD-1EBB-424B-8DDD-FE1CCE437226",
+              Title : "Date",
               TextColor : -2147483640,
               Background : -2147483643,
               Background2 : -2147483643,
@@ -124,8 +124,8 @@
               InactiveMarkColor : 128
             },
             {
-              Unique : "F7D3488C-33EA-412E-BBD9-AAC07D840419",
-              Title : "Атриб",
+              Unique : "99EFB191-9DC9-4FC3-8625-9C9B9CF6408C",
+              Title : "Attr",
               TextColor : -2147483640,
               Background : -2147483643,
               Background2 : -2147483643,
@@ -140,7 +140,7 @@
       ],
       Highlighters : [
         {
-          Name : "Простой текст",
+          Name : "Plain text",
           Attributes : [
             {
               Name : "Default text",
@@ -360,6 +360,10 @@
           Name : "INI file",
           Attributes : [
             {
+              Name : "Comment",
+              Value : "$1FFFFFFF|$00008000|$1FFFFFFF|0|1|2|0"
+            },
+            {
               Name : "Default text",
               Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
             },
@@ -376,6 +380,10 @@
               Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|1|0"
             },
             {
+              Name : "Space",
+              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
+            },
+            {
               Name : "String",
               Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             },
@@ -385,14 +393,6 @@
             },
             {
               Name : "Text",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Comment",
-              Value : "$1FFFFFFF|$00008000|$1FFFFFFF|0|1|2|0"
-            },
-            {
-              Name : "Space",
               Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             }
           ]
@@ -528,6 +528,10 @@
           Name : "MS-DOS batch language",
           Attributes : [
             {
+              Name : "Comment",
+              Value : "$1FFFFFFF|$00FF0000|$1FFFFFFF|0|1|1|0"
+            },
+            {
               Name : "Default text",
               Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
             },
@@ -544,16 +548,12 @@
               Value : "$1FFFFFFF|$00800000|$1FFFFFFF|0|1|0|0"
             },
             {
-              Name : "Comment",
-              Value : "$1FFFFFFF|$00FF0000|$1FFFFFFF|0|1|1|0"
+              Name : "Space",
+              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             },
             {
               Name : "Variable",
               Value : "$1FFFFFFF|$00008000|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Space",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             }
           ]
         },
@@ -866,6 +866,10 @@
           Name : "TeX",
           Attributes : [
             {
+              Name : "Comment",
+              Value : "$1FFFFFFF|$00808000|$1FFFFFFF|0|1|0|0"
+            },
+            {
               Name : "Default text",
               Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
             },
@@ -878,6 +882,10 @@
               Value : "$1FFFFFFF|$000000FF|$1FFFFFFF|0|1|1|0"
             },
             {
+              Name : "Space",
+              Value : "$00FFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
+            },
+            {
               Name : "Square Bracket",
               Value : "$1FFFFFFF|$00800080|$1FFFFFFF|0|1|0|0"
             },
@@ -888,14 +896,6 @@
             {
               Name : "Text",
               Value : "$1FFFFFFF|$00000000|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Comment",
-              Value : "$1FFFFFFF|$00808000|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Space",
-              Value : "$00FFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             }
           ]
         },
@@ -1070,6 +1070,10 @@
           Name : "po language files",
           Attributes : [
             {
+              Name : "Comment",
+              Value : "$1FFFFFFF|$00008000|$1FFFFFFF|0|1|2|0"
+            },
+            {
               Name : "Default text",
               Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
             },
@@ -1100,10 +1104,6 @@
             {
               Name : "Text",
               Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Comment",
-              Value : "$1FFFFFFF|$00008000|$1FFFFFFF|0|1|2|0"
             }
           ]
         }
@@ -1769,13 +1769,13 @@
       },
       ColumnSets : [
         {
-          Unique : "38476726-C2B6-4775-8C7B-1F5B66841B9B",
+          Unique : "D35C4C99-397E-4613-B8E9-DB2C749FBEB8",
           Name : "Default",
           CursorBorderColor : -2147483635,
           Columns : [
             {
-              Unique : "D3496B9D-D511-46F8-9D77-808F04715040",
-              Title : "Имя",
+              Unique : "27BE4EA2-6F01-49BE-A69D-ED227F578F81",
+              Title : "Name",
               TextColor : -2147483640,
               Background : -2147483643,
               Background2 : -2147483643,
@@ -1786,8 +1786,8 @@
               InactiveMarkColor : 128
             },
             {
-              Unique : "0F95FA1C-7CD5-4873-8A61-22D2F87644A4",
-              Title : "Тип",
+              Unique : "5FD6FCF3-39B7-42C5-A6C9-DC67D237B64B",
+              Title : "Ext",
               TextColor : -2147483640,
               Background : -2147483643,
               Background2 : -2147483643,
@@ -1798,8 +1798,8 @@
               InactiveMarkColor : 128
             },
             {
-              Unique : "DF6B46D9-0B9E-4AE8-9543-3D99A01A8CBA",
-              Title : "Размер",
+              Unique : "548039C6-48D5-456C-8AD3-6646EA368080",
+              Title : "Size",
               TextColor : -2147483640,
               Background : -2147483643,
               Background2 : -2147483643,
@@ -1810,8 +1810,8 @@
               InactiveMarkColor : 128
             },
             {
-              Unique : "7A7C1486-CCC7-45A2-A387-E4BF1C45CD8D",
-              Title : "Дата",
+              Unique : "70B9D2CD-1EBB-424B-8DDD-FE1CCE437226",
+              Title : "Date",
               TextColor : -2147483640,
               Background : -2147483643,
               Background2 : -2147483643,
@@ -1822,8 +1822,8 @@
               InactiveMarkColor : 128
             },
             {
-              Unique : "F7D3488C-33EA-412E-BBD9-AAC07D840419",
-              Title : "Атриб",
+              Unique : "99EFB191-9DC9-4FC3-8625-9C9B9CF6408C",
+              Title : "Attr",
               TextColor : -2147483640,
               Background : -2147483643,
               Background2 : -2147483643,
@@ -1837,15 +1837,6 @@
         }
       ],
       Highlighters : [
-        {
-          Name : "Простой текст",
-          Attributes : [
-            {
-              Name : "Default text",
-              Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
-            }
-          ]
-        },
         {
           Name : "C++",
           Attributes : [
@@ -2058,6 +2049,10 @@
           Name : "INI file",
           Attributes : [
             {
+              Name : "Comment",
+              Value : "$1FFFFFFF|$008AD277|$1FFFFFFF|0|1|2|0"
+            },
+            {
               Name : "Default text",
               Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
             },
@@ -2074,6 +2069,10 @@
               Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|1|0"
             },
             {
+              Name : "Space",
+              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
+            },
+            {
               Name : "String",
               Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             },
@@ -2083,14 +2082,6 @@
             },
             {
               Name : "Text",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Comment",
-              Value : "$1FFFFFFF|$008AD277|$1FFFFFFF|0|1|2|0"
-            },
-            {
-              Name : "Space",
               Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             }
           ]
@@ -2226,6 +2217,10 @@
           Name : "MS-DOS batch language",
           Attributes : [
             {
+              Name : "Comment",
+              Value : "$1FFFFFFF|$00C09B61|$1FFFFFFF|0|1|1|0"
+            },
+            {
               Name : "Default text",
               Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
             },
@@ -2242,16 +2237,12 @@
               Value : "$1FFFFFFF|$00E8BCBC|$1FFFFFFF|0|1|0|0"
             },
             {
-              Name : "Comment",
-              Value : "$1FFFFFFF|$00C09B61|$1FFFFFFF|0|1|1|0"
+              Name : "Space",
+              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             },
             {
               Name : "Variable",
               Value : "$1FFFFFFF|$008AD277|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Space",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             }
           ]
         },
@@ -2287,24 +2278,8 @@
               Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             },
             {
-              Name : "Modifier",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|1|0"
-            },
-            {
               Name : "Number",
               Value : "$1FFFFFFF|$00E8BCBC|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "PasDoc-Keyword",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "PasDoc-Symbol",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "PasDoc-Unknown",
-              Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             },
             {
               Name : "Procedure header name",
@@ -2564,6 +2539,10 @@
           Name : "TeX",
           Attributes : [
             {
+              Name : "Comment",
+              Value : "$1FFFFFFF|$00F0CAA6|$1FFFFFFF|0|1|0|0"
+            },
+            {
               Name : "Default text",
               Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
             },
@@ -2576,6 +2555,10 @@
               Value : "$1FFFFFFF|$006F6F98|$1FFFFFFF|0|1|1|0"
             },
             {
+              Name : "Space",
+              Value : "$8000001D|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
+            },
+            {
               Name : "Square Bracket",
               Value : "$1FFFFFFF|$00AC95B3|$1FFFFFFF|0|1|0|0"
             },
@@ -2586,14 +2569,6 @@
             {
               Name : "Text",
               Value : "$1FFFFFFF|$00C0C0C0|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Comment",
-              Value : "$1FFFFFFF|$00F0CAA6|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Space",
-              Value : "$8000001D|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
             }
           ]
         },
@@ -2635,10 +2610,6 @@
             {
               Name : "Symbol",
               Value : "$1FFFFFFF|$004D4DAA|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Unknown word",
-              Value : "$1FFFFFFF|$00808080|$1FFFFFFF|0|1|0|0"
             },
             {
               Name : "Variable",
@@ -2768,6 +2739,10 @@
           Name : "po language files",
           Attributes : [
             {
+              Name : "Comment",
+              Value : "$1FFFFFFF|$008AD277|$1FFFFFFF|0|1|2|0"
+            },
+            {
               Name : "Default text",
               Value : "$80000005|$80000008|$1FFFFFFF|0|1|0|0"
             },
@@ -2798,10 +2773,6 @@
             {
               Name : "Text",
               Value : "$1FFFFFFF|$1FFFFFFF|$1FFFFFFF|0|1|0|0"
-            },
-            {
-              Name : "Comment",
-              Value : "$1FFFFFFF|$008AD277|$1FFFFFFF|0|1|2|0"
             }
           ]
         }

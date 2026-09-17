@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="1.2.4 beta">
+<doublecmd DCVersion="1.2.4">
   <Hotkeys Version="70">
     <Form Name="Main">
       <Hotkey>
@@ -47,6 +47,10 @@
         <Shortcut>Shift+F8</Shortcut>
         <Command>cm_Delete</Command>
         <Param>trashcan=reversesetting</Param>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>F9</Shortcut>
+        <Command>cm_RunTerm</Command>
       </Hotkey>
       <Hotkey>
         <Shortcut>Alt+F8</Shortcut>
@@ -193,6 +197,10 @@
         <Command>cm_PrevTab</Command>
       </Hotkey>
       <Hotkey>
+        <Shortcut>Ctrl+Shift+F7</Shortcut>
+        <Command>cm_AddNewSearch</Command>
+      </Hotkey>
+      <Hotkey>
         <Shortcut>Ctrl+Shift+F8</Shortcut>
         <Command>cm_TreeView</Command>
       </Hotkey>
@@ -265,6 +273,10 @@
         <Command>cm_Search</Command>
       </Hotkey>
       <Hotkey>
+        <Shortcut>Alt+F9</Shortcut>
+        <Command>cm_ExtractFiles</Command>
+      </Hotkey>
+      <Hotkey>
         <Shortcut>Alt+Del</Shortcut>
         <Command>cm_Wipe</Command>
       </Hotkey>
@@ -281,11 +293,11 @@
         <Command>cm_ViewHistoryNext</Command>
       </Hotkey>
       <Hotkey>
-        <Shortcut>Shift+Alt+Enter</Shortcut>
+        <Shortcut>Alt+Shift+Enter</Shortcut>
         <Command>cm_CountDirContent</Command>
       </Hotkey>
       <Hotkey>
-        <Shortcut>Shift+Alt+F9</Shortcut>
+        <Shortcut>Alt+Shift+F9</Shortcut>
         <Command>cm_TestArchive</Command>
       </Hotkey>
       <Hotkey>
@@ -386,10 +398,6 @@
       <Hotkey>
         <Shortcut>Ctrl+K</Shortcut>
         <Command>cm_MapNetworkDrive</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>F9</Shortcut>
-        <Command>cm_RunTerm</Command>
       </Hotkey>
       <Hotkey>
         <Shortcut>Del</Shortcut>

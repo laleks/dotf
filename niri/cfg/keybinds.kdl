@@ -11,7 +11,7 @@ binds {
     // ─── Applications ───
     Mod+SPACE                           hotkey-overlay-title="Open Terminal: Alacritty" { spawn "alacritty"; }
     Mod+Q                               hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
-//    Mod+Q                               hotkey-overlay-title="Open App Launcher: wofi launcher" { spawn "wofi --show"; }
+//    Mod+Q                               hotkey-overlay-title="Open App Launcher: Wofi launcher" { spawn-sh "wofi --show"; }
     Mod+W                               hotkey-overlay-title="Open Browser: firefox" { spawn "firefox"; }
     Mod+Shift+L                         hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
     Mod+Shift+D                         hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
@@ -57,18 +57,18 @@ binds {
 
     Mod+Home                            { focus-column-first; }
     Mod+End                             { focus-column-last; }
-    Mod+CTRL+Home                       { move-column-to-first; }
-    Mod+CTRL+End                        { move-column-to-last; }
+    //Mod+CTRL+Home                       { move-column-to-first; }
+    //Mod+CTRL+End                        { move-column-to-last; }
 
-    Mod+Shift+Left                      { focus-monitor-left; }
-    Mod+Shift+Right                     { focus-monitor-right; }
-    Mod+Shift+UP                        { focus-monitor-up; }
-    Mod+Shift+Down                      { focus-monitor-down; }
+    //Mod+Shift+Left                      { focus-monitor-left; }
+    //Mod+Shift+Right                     { focus-monitor-right; }
+    //Mod+Shift+UP                        { focus-monitor-up; }
+    //Mod+Shift+Down                      { focus-monitor-down; }
 
-    Mod+Shift+CTRL+Left                 { move-column-to-monitor-left; }
-    Mod+Shift+CTRL+Right                { move-column-to-monitor-right; }
-    Mod+Shift+CTRL+UP                   { move-column-to-monitor-up; }
-    Mod+Shift+CTRL+Down                 { move-column-to-monitor-down; }
+    //Mod+Shift+CTRL+Left                 { move-column-to-monitor-left; }
+    //Mod+Shift+CTRL+Right                { move-column-to-monitor-right; }
+    //Mod+Shift+CTRL+UP                   { move-column-to-monitor-up; }
+    //Mod+Shift+CTRL+Down                 { move-column-to-monitor-down; }
 
     // ─── Workspace Switching ───
     Mod+Shift+WheelScrollDown           cooldown-ms=150 { focus-workspace-down; }
@@ -84,8 +84,8 @@ binds {
 
     Mod+WheelScrollDown                 { focus-column-right; }
     Mod+WheelScrollUp                   { focus-column-left; }
-    Mod+CTRL+Shift+WheelScrollDown      { move-column-right; }
-    Mod+CTRL+Shift+WheelScrollUp        { move-column-left; }
+    //Mod+CTRL+Shift+WheelScrollDown      { move-column-right; }
+    //Mod+CTRL+Shift+WheelScrollUp        { move-column-left; }
 
     Mod+1                               { focus-workspace 1; }
     Mod+2                               { focus-workspace 2; }
@@ -114,10 +114,10 @@ binds {
     Mod+F                               { maximize-column; }
     Mod+Shift+C                         { center-column; }
     //Mod+C                               { center-visible-columns; }
-    Mod+Minus                           { set-column-width "-10%"; }
-    Mod+Equal                           { set-column-width "+10%"; }
-    Mod+Shift+Minus                     { set-window-height "-10%"; }
-    Mod+Shift+Equal                     { set-window-height "+10%"; }
+    Mod+Shift+Left                            { set-column-width "-10%"; }
+    Mod+Shift+Right                           { set-column-width "+10%"; }
+    //Mod+Shift+Minus                     { set-window-height "-10%"; }
+    //Mod+Shift+Equal                     { set-window-height "+10%"; }
 
     // ─── Modes ───
     Mod+T                               { toggle-window-floating; }

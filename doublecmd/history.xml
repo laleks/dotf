@@ -2,72 +2,40 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/mnt/data/distrib/aur/gosplugin/src/</Item>
-      <Item>/mnt/data/distrib/aur/gosplugin/</Item>
-      <Item>/mnt/data/distrib/aur/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/.git/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/pkg/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/etc/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/etc/chromium/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/etc/chromium/native-messaging-hosts/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/opt/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/usr/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/src/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/src/etc/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/src/etc/opt/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/src/etc/chromium/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/src/opt/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/src/usr/</Item>
-      <Item>/mnt/data/distrib/aur/rutoken-connect/src/var/</Item>
-      <Item>/mnt/data/distrib/</Item>
-      <Item>/mnt/data/</Item>
-      <Item>/mnt/</Item>
-      <Item>/</Item>
-      <Item>/home/</Item>
-      <Item>/home/lt/</Item>
-      <Item>/home/lt/.config/</Item>
-      <Item>/home/lt/.config/yay/</Item>
-      <Item>/home/lt/.cache/</Item>
-      <Item>/home/lt/.local/</Item>
-      <Item>/home/lt/.local/share/</Item>
-      <Item>/home/lt/.config/niri/cfg/</Item>
-      <Item>/home/lt/.config/niri/</Item>
-      <Item>/mnt/dop/</Item>
-      <Item>/mnt/ext/</Item>
-      <Item>/mnt/data/inbox/</Item>
       <Item>/mnt/data/dotf/</Item>
-      <Item>/mnt/data/dotf/kitty/</Item>
-      <Item>/mnt/data/dotf/mc/</Item>
-      <Item>/home/lt/.ssh/</Item>
-      <Item>/home/lt/.vim/</Item>
-      <Item>/mnt/data/dotf/nvim/</Item>
-      <Item>/mnt/data/dotf/sshd/</Item>
-      <Item>/mnt/data/dotf/mc_hypr/</Item>
-      <Item>/etc/</Item>
-      <Item>/etc/samba/</Item>
+      <Item>/mnt/data/dotf/xnviewmp/</Item>
+      <Item>/mnt/data/dotf/sublime-text/</Item>
+      <Item>/mnt/data/dotf/.ssh/</Item>
+      <Item>/mnt/data/dotf/SpeedCrunch/</Item>
       <Item>/mnt/data/dotf/samba/</Item>
       <Item>/mnt/data/dotf/qBittorrent/</Item>
-      <Item>/mnt/data/dotf/.ssh/</Item>
-      <Item>/etc/ssh/</Item>
+      <Item>/mnt/data/dotf/obsidian/</Item>
+      <Item>/mnt/data/dotf/mc/</Item>
+      <Item>/mnt/data/dotf/.local/</Item>
+      <Item>/mnt/data/dotf/.local/fish/</Item>
+      <Item>/mnt/data/dotf/.local/DBeaverData/</Item>
+      <Item>/mnt/data/dotf/hypr/</Item>
+      <Item>/mnt/data/dotf/Happ/</Item>
       <Item>/mnt/data/dotf/git/</Item>
-      <Item>/mnt/data/dotf/.git/</Item>
+      <Item>/mnt/data/dotf/fish/</Item>
+      <Item>/mnt/data/dotf/doublecmd/</Item>
+      <Item>/mnt/data/dotf/alacritty/</Item>
+      <Item>/home/lt/.config/</Item>
+      <Item>/home/lt/</Item>
+      <Item>/mnt/data/dotf/dconf/</Item>
+      <Item>/home/lt/.config/dconf/</Item>
+      <Item>/home/</Item>
+      <Item>/</Item>
+      <Item>/mnt/</Item>
+      <Item>/mnt/data/</Item>
+      <Item>/usr/</Item>
+      <Item>/usr/lib64/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask/>
     <VolumeSize/>
-    <CreateDirectories>
-      <Item Tag="0">share</Item>
-    </CreateDirectories>
-    <SearchText>
-      <Item Tag="0">window-rule</Item>
-      <Item Tag="0">+C</Item>
-      <Item Tag="0">Mod+C</Item>
-      <Item Tag="0">+A</Item>
-      <Item Tag="0">+O</Item>
-      <Item Tag="0">envir</Item>
-    </SearchText>
+    <CreateDirectories/>
+    <SearchText/>
     <SearchTextPath/>
     <ReplaceText/>
     <ReplaceTextPath/>

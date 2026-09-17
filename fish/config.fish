@@ -1,23 +1,21 @@
-source /usr/share/cachyos-fish-config/cachyos-config.fish
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
 
-#set -g fish_greeting
-#set -gx PATH $PATH /opt/android-sdk/platform-tools
-#set -gx PATH $PATH /var/lib/snapd/snap/bin
+set -g fish_greeting
 
-#if status is-interactive
-#    # Commands to run in interactive sessions can go here
-#end
-
-
-# overwrite greeting
-# potentially disabling fastfetch
-#function fish_greeting
-#    # smth smth
-#end
-
-# zoxide init --cmd cd fish | source
-
-#alias ls='ls -lhaXA --color=auto --group-directories-first'
+alias ls='ls -lhaXA --group-directories-first'
 #alias grep='grep --color=auto'
 alias lsblk='lsblk -o NAME,SIZE,FSTYPE,FSUSED,MOUNTPOINTS,MODEL,UUID'
-# alias nvim="VIMRUNTIME=/mnt/data/distrib/aur/neovim/runtime NVIM_APPNAME=kek /mnt/data/distrib/aur/neovim/build/bin/nvim"
+
+#alias pacmanplayr='epm query' # проверка наличия установленного пакета по его точному имени
+#alias pacman-Ss='epm grep' # Поиск установленных пакетов по названию
+
+abbr -a aptupd "sudo apt-get update" # обновление списка пакетов
+abbr -a apti "epm install"
+abbr -a aptr "epm remove"
+abbr -a aptupg "epm upgrade && epm play --update all" # обновить все пакеты в системе
+abbr -a apts "epm search" # поиск пакета по кэшу репазитория
+abbr -a aptp "epm play" # установить пакет с помощью epm play
+abbr -a aptl "epm filelist" # список файлов внутри установленного пакета
+abbr -a aptinf "epm info" # показывает детали по пакету

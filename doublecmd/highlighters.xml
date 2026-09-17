@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doublecmd>
   <Highlighters Version="2">
-    <Highlighter Tag="0" Name="Простой текст">
+    <Highlighter Tag="0" Name="Plain text">
       <DefaultFilter/>
     </Highlighter>
     <Highlighter Tag="0" Name="Assembler (x86)">

@@ -16,126 +16,46 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="lt">/home/</Path>
-                  <Path Filename=".cache">/home/lt/</Path>
-                  <Path Filename="..">/home/lt/.cache/</Path>
-                  <Path Filename=".config">/home/lt/</Path>
-                  <Path Filename="yay">/home/lt/.config/</Path>
-                  <Path Filename="..">/home/lt/.config/yay/</Path>
-                  <Path Filename="..">/home/lt/.config/</Path>
-                  <Path Filename=".config">/home/lt/</Path>
-                  <Path Filename="lt">/home/</Path>
-                  <Path Filename="mnt">/</Path>
-                  <Path Filename="data">/mnt/</Path>
-                  <Path Filename="distrib">/mnt/data/</Path>
-                  <Path Filename="aur">/mnt/data/distrib/</Path>
-                  <Path Filename="rutoken-connect">/mnt/data/distrib/aur/</Path>
-                  <Path Filename="src">/mnt/data/distrib/aur/rutoken-connect/</Path>
-                  <Path Filename="var">/mnt/data/distrib/aur/rutoken-connect/src/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/src/var/</Path>
-                  <Path Filename="usr">/mnt/data/distrib/aur/rutoken-connect/src/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/src/usr/</Path>
-                  <Path Filename="opt">/mnt/data/distrib/aur/rutoken-connect/src/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/src/opt/</Path>
-                  <Path Filename="etc">/mnt/data/distrib/aur/rutoken-connect/src/</Path>
-                  <Path Filename="chromium">/mnt/data/distrib/aur/rutoken-connect/src/etc/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/src/etc/chromium/</Path>
-                  <Path Filename="opt">/mnt/data/distrib/aur/rutoken-connect/src/etc/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/src/etc/opt/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/src/etc/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/src/</Path>
-                  <Path Filename="pkg">/mnt/data/distrib/aur/rutoken-connect/</Path>
-                  <Path Filename="rutoken-connect">/mnt/data/distrib/aur/rutoken-connect/pkg/</Path>
-                  <Path Filename="usr">/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/usr/</Path>
-                  <Path Filename="opt">/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/opt/</Path>
-                  <Path Filename="etc">/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/</Path>
-                  <Path Filename="chromium">/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/etc/</Path>
-                  <Path Filename="native-messaging-hosts">/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/etc/chromium/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/etc/chromium/native-messaging-hosts/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/etc/chromium/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/etc/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/pkg/rutoken-connect/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/pkg/</Path>
-                  <Path Filename=".git">/mnt/data/distrib/aur/rutoken-connect/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/.git/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/rutoken-connect/</Path>
-                  <Path Filename="gosplugin">/mnt/data/distrib/aur/</Path>
-                  <Path Filename="src">/mnt/data/distrib/aur/gosplugin/</Path>
-                  <Path Filename="..">/mnt/data/distrib/aur/gosplugin/src/</Path>
-                  <Path Filename="src">/mnt/data/distrib/aur/gosplugin/</Path>
-                  <Path Filename="data.tar.xz">/mnt/data/distrib/aur/gosplugin/src/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="..">/mnt/data/dotfl/.local/</Path>
-                  <Path Filename="..">/mnt/data/dotfl/</Path>
-                  <Path Filename="dotfl">/mnt/data/</Path>
-                  <Path Filename="..">/mnt/data/dotfl/</Path>
-                  <Path Filename="..">/mnt/data/</Path>
-                  <Path Filename="data">/mnt/</Path>
-                  <Path Filename="home">/</Path>
-                  <Path Filename="..">/home/</Path>
-                  <Path Filename="home">/</Path>
-                  <Path Filename="lt">/home/</Path>
-                  <Path Filename="..">/home/lt/</Path>
-                  <Path Filename="lt">/home/</Path>
-                  <Path Filename=".config">/home/lt/</Path>
-                  <Path Filename="..">/home/lt/.config/</Path>
-                  <Path Filename=".config">/home/lt/</Path>
-                  <Path Filename="xnviewmp">/home/lt/.config/</Path>
-                  <Path Filename=".config">/home/lt/</Path>
-                  <Path Filename="nautilus">/home/lt/.config/</Path>
-                  <Path Filename="..">/home/lt/.config/nautilus/</Path>
-                  <Path Filename="keepassxc">/home/lt/.config/</Path>
-                  <Path Filename="..">/home/lt/.config/keepassxc/</Path>
-                  <Path Filename="cachyos">/home/lt/.config/</Path>
-                  <Path Filename="cachyos-pi">/home/lt/.config/cachyos/</Path>
-                  <Path Filename="..">/home/lt/.config/cachyos/cachyos-pi/</Path>
-                  <Path Filename="cachyos-hello">/home/lt/.config/cachyos/</Path>
-                  <Path Filename="..">/home/lt/.config/cachyos/cachyos-hello/</Path>
-                  <Path Filename="cachyos-pi">/home/lt/.config/cachyos/</Path>
-                  <Path Filename="..">/home/lt/.config/cachyos/cachyos-pi/</Path>
-                  <Path Filename="..">/home/lt/.config/cachyos/</Path>
-                  <Path Filename="autostart">/home/lt/.config/</Path>
-                  <Path Filename="..">/home/lt/.config/autostart/</Path>
-                  <Path Filename="..">/home/lt/.config/</Path>
-                  <Path Filename=".local">/home/lt/</Path>
-                  <Path Filename="share">/home/lt/.local/</Path>
-                  <Path Filename="fish">/home/lt/.local/share/</Path>
-                  <Path Filename="share">/home/lt/.local/</Path>
-                  <Path Filename=".local">/home/lt/</Path>
-                  <Path Filename="lt">/home/</Path>
-                  <Path Filename="etc">/</Path>
-                  <Path Filename="ssh">/etc/</Path>
-                  <Path Filename="..">/etc/ssh/</Path>
-                  <Path Filename="samba">/etc/</Path>
-                  <Path Filename="..">/etc/samba/</Path>
-                  <Path Filename="credstore.encrypted">/etc/</Path>
-                  <Path Filename="mnt">/</Path>
-                  <Path Filename="data">/mnt/</Path>
-                  <Path Filename="..">/mnt/data/</Path>
-                  <Path Filename="..">/mnt/</Path>
-                  <Path Filename="mnt">/</Path>
-                  <Path Filename="..">/mnt/</Path>
+                  <Path Filename="..">/usr/lib64/doublecmd/</Path>
+                  <Path Filename="dconf">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/dconf/</Path>
+                  <Path Filename="dconf">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/dconf/</Path>
+                  <Path Filename="alacritty">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/alacritty/</Path>
+                  <Path Filename="doublecmd">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/doublecmd/</Path>
+                  <Path Filename="fish">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/fish/</Path>
+                  <Path Filename="git">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/git/</Path>
+                  <Path Filename="Happ">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/Happ/</Path>
+                  <Path Filename="hypr">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/hypr/</Path>
+                  <Path Filename=".local">/mnt/data/dotf/</Path>
+                  <Path Filename="DBeaverData">/mnt/data/dotf/.local/</Path>
+                  <Path Filename="..">/mnt/data/dotf/.local/DBeaverData/</Path>
+                  <Path Filename="fish">/mnt/data/dotf/.local/</Path>
+                  <Path Filename="..">/mnt/data/dotf/.local/fish/</Path>
+                  <Path Filename="..">/mnt/data/dotf/.local/</Path>
+                  <Path Filename="mc">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/mc/</Path>
+                  <Path Filename="obsidian">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/obsidian/</Path>
+                  <Path Filename="qBittorrent">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/qBittorrent/</Path>
+                  <Path Filename="samba">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/samba/</Path>
+                  <Path Filename="SpeedCrunch">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/SpeedCrunch/</Path>
+                  <Path Filename=".ssh">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/.ssh/</Path>
+                  <Path Filename="sublime-text">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/sublime-text/</Path>
+                  <Path Filename="xnviewmp">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/xnviewmp/</Path>
+                  <Path Filename="dconf">/mnt/data/dotf/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -159,56 +79,29 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="fonts">/mnt/data/dotf/.local/</Path>
-                  <Path Filename="..">/mnt/data/dotf/.local/fonts/</Path>
-                  <Path Filename="fonts">/mnt/data/dotf/.local/</Path>
-                  <Path Filename="..">/mnt/data/dotf/.local/fonts/</Path>
-                  <Path Filename="..">/mnt/data/dotf/.local/</Path>
-                  <Path Filename=".git">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/.git/</Path>
-                  <Path Filename="git">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/git/</Path>
-                  <Path Filename=".ssh">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/.ssh/</Path>
-                  <Path Filename="sshd">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/sshd/</Path>
-                  <Path Filename="samba">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/samba/</Path>
-                  <Path Filename="sshd">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/sshd/</Path>
-                  <Path Filename=".ssh">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/.ssh/</Path>
-                  <Path Filename="samba">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/samba/</Path>
-                  <Path Filename="qBittorrent">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/qBittorrent/</Path>
-                  <Path Filename="samba">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/samba/</Path>
-                  <Path Filename="mc_hypr">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/mc_hypr/</Path>
-                  <Path Filename="sshd">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/sshd/</Path>
-                  <Path Filename="nvim">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/nvim/</Path>
-                  <Path Filename="mc">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/mc/</Path>
-                  <Path Filename="kitty">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/dotf/kitty/</Path>
-                  <Path Filename="..">/mnt/data/dotf/</Path>
-                  <Path Filename="..">/mnt/data/</Path>
-                  <Path Filename="ext">/mnt/</Path>
-                  <Path Filename="..">/mnt/ext/</Path>
-                  <Path Filename="dop">/mnt/</Path>
-                  <Path Filename="..">/mnt/dop/</Path>
+                  <Path Filename="..">/usr/lib64/doublecmd/</Path>
+                  <Path Filename="doublecmd">/usr/lib64/</Path>
+                  <Path Filename="lib64">/usr/</Path>
+                  <Path Filename="mnt">/</Path>
                   <Path Filename="data">/mnt/</Path>
-                  <Path Filename="..">/mnt/data/</Path>
-                  <Path Filename="..">/mnt/</Path>
+                  <Path Filename="dotf">/mnt/data/</Path>
+                  <Path Filename="dconf">/mnt/data/dotf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/dconf/</Path>
+                  <Path Filename="..">/mnt/data/dotf/</Path>
+                  <Path Filename="dotf">/mnt/data/</Path>
+                  <Path Filename="data">/mnt/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="lt">/home/</Path>
+                  <Path Filename=".iitrust">/home/lt/</Path>
+                  <Path Filename="..">/home/</Path>
                   <Path Filename="home">/</Path>
                   <Path Filename="lt">/home/</Path>
                   <Path Filename=".config">/home/lt/</Path>
-                  <Path Filename="niri">/home/lt/.config/</Path>
-                  <Path Filename="cfg">/home/lt/.config/niri/</Path>
-                  <Path Filename="..">/home/lt/.config/niri/cfg/</Path>
+                  <Path Filename="dconf">/home/lt/.config/</Path>
+                  <Path Filename="..">/home/lt/.config/dconf/</Path>
+                  <Path Filename="..">/home/lt/.config/</Path>
+                  <Path Filename=".config">/home/lt/</Path>
+                  <Path Filename="enchant">/home/lt/.config/</Path>
                 </Paths>
               </Entry>
             </History>
