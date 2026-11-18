@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Sublime Text
+Exec=subl
+Icon=/opt/sublime-text/Icon/128x128/sublime-text.png
+Terminal=false
+StartupWMClass=sublime_text

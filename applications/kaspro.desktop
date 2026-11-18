@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Kaspro
+Exec=python3 /mnt/data/res/kaspro/kaspro.py
+Icon=/mnt/data/res/kaspro/res/icon.png
+Terminal=false
+StartupWMClass=Kaspro
